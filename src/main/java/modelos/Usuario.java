@@ -3,6 +3,9 @@ package modelos;
 
 import lombok.Data;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 import static java.time.LocalDate.now;
 @Data
 public class Usuario {
@@ -17,7 +20,7 @@ public class Usuario {
         this.plataforma = plataforma;
         this.version = version;
         this.admin = admin;
-        this.hora= String.valueOf(now());
+        this.hora= LocalDateTime.now().toString();
 
 
     }
