@@ -57,7 +57,7 @@
             <ChoiceBox fx:id="cbplataforma" prefHeight="26.0" prefWidth="187.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Spinner fx:id="spversion" prefHeight="26.0" prefWidth="187.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Label text="Administrador" GridPane.rowIndex="3" />
-            <CheckBox fx:id="cbadmin" mnemonicParsing="false" text="CheckBox" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <CheckBox fx:id="cbadmin" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             </children>
         </GridPane>
         <Button layoutX="180.0" layoutY="155.0" mnemonicParsing="false" onAction="#guardar" style="-fx-background-color: lightgreen;" text="Guardar" />
